@@ -38,6 +38,7 @@ firsttwo div{
 }
 
 .flexcontainer2{
+  padding:20px;
   margin-left: 20px;
   display: flex;
   gap: 20px;
@@ -52,6 +53,7 @@ firsttwo div{
   padding: 5px;
   padding-left: 10px;
   padding-right:10px ;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
   
   
 }
@@ -94,6 +96,33 @@ firsttwo div{
 
 .backg{
   background-color: peachpuff;
+  
+}
+#quote{
   text-align: center;
   margin: 100px;
+}
+
+.class{
+  background-color: white;
+}
+.last{
+  justify-content: space-between;
+  display: flex;
+  background-color: blue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#CA{
+  color: white;
+}
+#but2{
+  background-color: blue;
+  color: white;
+  border-radius: 2px;
+  border: solid white 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
